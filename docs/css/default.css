@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	margin: 20px auto;
+	padding: 20px;
+}
+
+#btn-run{
+	width: 200px;
+	background: #A00;
+	border: inset 2px #AAA;
+	border-radius: 50px;
+}
