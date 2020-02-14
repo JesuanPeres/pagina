@@ -10,6 +10,51 @@ font-family: 'Open Sans', sans-serif; */
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    /*color: #000;*/
+    font-family: arial;
 }
+
+.container{
+	display: grid;
+
+}
+
+header{
+	position: fixed;
+	height: 10vh;
+	width: 100%;
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	background-color: black;
+	/*grid-auto-flow: columns;*/
+}
+
+#links{
+	display: grid;
+	justify-content: end;
+	grid-auto-flow: column;
+	justify-content: center;
+	grid-gap: 10px;
+
+}
+a {
+	color: white;
+}
+
+
+
+.container{
+	height: 100vh;
+	padding-top: 10vh;
+}
+
+
+
+
+
+
 
