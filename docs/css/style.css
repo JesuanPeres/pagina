@@ -41,7 +41,7 @@ header{
 	grid-gap: 10px;
 
 }
-a {
+#links>li>a {
 	color: white;
 }
 
