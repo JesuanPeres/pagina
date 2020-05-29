@@ -23,6 +23,11 @@ h1, h2{
 	border-bottom: 5px solid rgb(49, 49, 70);
 }
 
+h4{
+	margin-left: 40px;
+	color: rgb(49, 49, 70);
+}
+
 
 header{
 	position: fixed;
@@ -50,11 +55,11 @@ header{
 
 
 .container{
-	height: 100vh;
+	/* height: 100vh; */
 	padding-top: 10vh;
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 10vh 90vh;
+	grid-template-rows: 10vh auto;
 	grid-template-areas: "title" "content";
 }
 
@@ -115,10 +120,48 @@ header{
 
 }
 
+.content>p{
+	margin: 20px;
+	padding: 10px;
+	font-size: large;
+	border-left: 5px solid rgb(49, 49, 70);
+	color: rgb(49, 49, 70);
+	text-align: justify;
+  	text-justify: inter-word;
+}
+
+#habilidades{
+	margin: 0 20px;
+	padding: 10px;
+	font-size: large;
+	display: flex;
 	
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+	
+#habilidades>span{
+	background-color: rgb(49, 49, 70);
+	color: #fff;
+	padding: 5px;
+	border-radius: 2px;
+	margin: 2px;
+}
 	
 
+#contact-list>li{
+	margin: 20px;
+	padding: 10px;
+	font-size: large;
+	color: rgb(49, 49, 70);
+	display: grid;
+	justify-content: center;
+	align-content: center;
+}
 
+footer{
+	margin-top: 100px;
+}
 
 
 
